@@ -52,7 +52,7 @@ for (let customer of customers) {
     customerCard.appendChild (customerName)
     // created an h4 element to assing all customer first name and last names
 
-    const customerEmail = document.createElement("p")
+    const customerEmail = document.createElement("h5")
     customerEmail.innerHTML = customer.email
     customerCard.appendChild (customerEmail)
     // created p element for all emails
